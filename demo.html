@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>动态</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0,maximum-scale=1.0, user-scalable=no"/>
+	<link rel="stylesheet" href="css/appdt/dontai-style/style.css">
+	<link rel="stylesheet" href="css/appdt/dontai/iconfont.css">
+	<link rel="stylesheet" href="css/appdt/icon/iconfont.css">
+	<script>
+        var pixelRatio = 1 / window.devicePixelRatio; //还原设备的真实分辨率；
+        //devicePixelRatio设备的像素比；
+
+        document.write('<meta name="viewport" content="width=device-width,initial-scale=' + pixelRatio + ',minimum-scale=' + pixelRatio + ',maximum-scale=' + pixelRatio + '" />');
+        var html = document.getElementsByTagName('html')[0];
+        var pageWidth = html.getBoundingClientRect().width;
+        html.style.fontSize = pageWidth / 10 + "px";
+    </script>
+</head>
+<body>
+	<div class="head">
+		动态
+		<span class = "iconfont icon-sousuo"></span>
+	</div>
+	<div class="second_one"><img src="css/appdt/img/img1.png" alt="">
+		<p>
+		<span class = "iconfont icon-dizhi"></span>
+		中国-广西
+		</p>
+	</div>
+	<div class="second_one one"><img src="css/appdt/img/img2.png" alt="">
+		<p>
+		<span class = "iconfont icon-dizhi"></span>
+		中国-西川
+		</p>
+	</div>
+	<div class="second_one one"><img src="css/appdt/img/img3.png" alt="">
+		<p>
+		<span class = "iconfont icon-dizhi"></span>
+		中国-河南
+		</p>
+	</div>
+	<div class="footer">
+		<ul>
+			<a href="index.html"><li class = "iconfont icon-shouye"><span>首页</span></li></a>
+			<a href="chuxin.html"><li class = "iconfont icon-chuxing"><span>出行</span></li></a>
+			<a href="demo.html"><li class = "iconfont icon-dongtai"><span>动态</span></li></a>
+			<a href="my.html"><li class = "iconfont icon-wode"><span>我的</span></li></a>
+		</ul>
+	</div>
+	<script src = "js/style.js"></script>
+</body>
+</html>
